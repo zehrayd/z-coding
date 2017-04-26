@@ -1,0 +1,96 @@
+
+body{
+    background-image: url("https://media.mnn.com/assets/images/2013/02/nyctrees.jpg.560x0_q80_crop-smart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    border: 10px double #2d7a0e;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #f7f3e3;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+
+.nav-item{
+    font-family: sans-serif;
+    font-size: 30;
+    align-items: center;
+    display: flex;
+}
+
+
+a:link {
+    color: #2d7a0e;
+}
+
+.h1{
+    /*color:#2d7a0e;*/
+    font-weight: bolder;
+    font-size: 50;
+}
+
+.h1:hover{
+   transform: scale(2); 
+}
+
+.h2{
+    font-family: sans-serif;
+    color: #f7f3e3;
+    font-weight: bold;
+    font-size: 40;
+}
+.homepage{
+    font-size: 30;
+    font-family: sans-serif;
+    border:6px double #2d7a0e;
+    background-color:#f7f3e3;
+    width: 90%;
+    margin: 60;
+    padding: 20;
+    text-align: center;
+}
+
+/*FROM HERE IS FOR THE SITES PAGE*/
+.sitecontainer{
+    font-family: sans-serif;
+    color: #f7f3e3;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+}
+
+    
+.column{
+    width: 50%;
+    border: 4px red solid;
+    
+}
+.manhattan{
+    width:100%;
+    display: flex;
+    border: 4px black solid
+    
+}
+.queens{
+    width: 100%;
+    display: flex;
+    border: 4px black solid;
+}
+
+/*contact page*/
+
+.contactform{
+    font-family: sans-serif;
+    border: 6px double #f7f3e3;
+    padding: 20;
+    color: #f7f3e3;
+
+    
+}
